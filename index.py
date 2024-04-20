@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from .presentation_layer.py import send_welcome
+from presentation_layer.py import send_welcome
 
 app = Flask(__name__)
 
