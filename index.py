@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 
-from presentation_layer.py import send_welcome
-
+from dotenv import load_dotenv
 app = Flask(__name__)
 
 
